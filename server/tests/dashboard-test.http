@@ -1,0 +1,61 @@
+
+### Get records overview (KPI metrics)
+GET http://localhost:5000/api/dashboard/records/overview
+
+### Get records breakdown by status
+GET http://localhost:5000/api/dashboard/records/by-status
+
+### Get records breakdown by document type
+GET http://localhost:5000/api/dashboard/records/by-document-type
+
+### Get records breakdown by sponsor
+GET http://localhost:5000/api/dashboard/records/by-sponsor
+
+### Get top downloaded records (with limit parameter)
+GET http://localhost:5000/api/dashboard/records/top-downloaded?limit=10
+
+### Get records created timeline (by month)
+GET http://localhost:5000/api/dashboard/records/timeline/created
+
+### Get records issued timeline (by month)
+GET http://localhost:5000/api/dashboard/records/timeline/issued
+
+### Get records date range distribution (7, 30, 90 days)
+GET http://localhost:5000/api/dashboard/records/date-range-distribution
+
+### ============================================================================
+### USER ENDPOINTS
+### ============================================================================
+
+### Get users overview (KPI metrics)
+GET http://localhost:5000/api/dashboard/users/overview
+
+### Get users breakdown by role
+GET http://localhost:5000/api/dashboard/users/by-role
+
+### Get users activity status (active/inactive)
+GET http://localhost:5000/api/dashboard/users/activity-status
+
+### Get users breakdown by office
+GET http://localhost:5000/api/dashboard/users/by-office
+
+### ============================================================================
+### OFFICE ENDPOINTS
+### ============================================================================
+
+### Get offices overview (KPI metrics)
+GET http://localhost:5000/api/dashboard/offices/overview
+
+### Get detailed office statistics with user counts
+GET http://localhost:5000/api/dashboard/offices/detailed-stats
+
+### ============================================================================
+### COMPREHENSIVE DASHBOARD
+### ============================================================================
+
+### Get all dashboard data at once (complete snapshot)
+GET http://localhost:5000/api/dashboard/comprehensive
+
+### Viewer statistics (for tracking dashboard usage)
+GET http://localhost:5000/api/dashboard/viewers
+

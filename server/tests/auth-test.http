@@ -1,0 +1,25 @@
+### Sign Up
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Admin User",
+  "email": "admin1@gmail.com",
+  "password": "@dmin123"
+}
+
+### Sign In
+POST http://localhost:5000/api/auth/signin
+Content-Type: application/json
+
+{
+  "email": "admin1@gmail.com",
+  "password": "@dmin123"
+}
+
+### Logout
+POST http://localhost:5000/api/auth/logout
+
+###check
+
+GET http://localhost:5000/api/auth/check

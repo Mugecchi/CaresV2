@@ -1,0 +1,5 @@
+model Offices {
+  id    String  @id @default(uuid())
+  name  String?
+  Users Users[]
+}

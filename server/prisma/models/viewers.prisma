@@ -1,0 +1,7 @@
+model viewers {
+    id BigInt @id @default(autoincrement())
+    ip_address String
+    user_agent String
+    timestamp DateTime @default(now())
+}
+

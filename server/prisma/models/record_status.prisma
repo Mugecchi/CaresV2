@@ -1,0 +1,6 @@
+
+model record_status {
+    id String @id @default(uuid())
+    name String
+}
+
